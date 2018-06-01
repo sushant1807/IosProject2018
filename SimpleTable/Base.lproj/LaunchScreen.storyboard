@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFit" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="whatsapp" translatesAutoresizingMaskIntoConstraints="NO" id="nHx-wo-4OF">
+                                <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="460" id="mOu-VE-X87"/>
+                                    <constraint firstAttribute="width" constant="320" id="t8k-Bn-ibo"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="Fifa" translatesAutoresizingMaskIntoConstraints="NO" id="lvp-ew-yvn">
+                                <rect key="frame" x="16" y="130" width="288" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="YB4-Ld-mmc"/>
+                                    <constraint firstAttribute="height" constant="150" id="slE-2l-P5d"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FIFA WORLD RANKINGS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DbQ-eA-cRp">
+                                <rect key="frame" x="16" y="77" width="288" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="Fxi-ah-8Tk"/>
+                                    <constraint firstAttribute="height" constant="30" id="S9f-aV-Mfs"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="highlightedColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sushant.attada@epita.fr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NgS-cq-YPd">
+                                <rect key="frame" x="16" y="351" width="288" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="29" id="Ite-GC-yBc"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="29" id="MjD-Jc-FyJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia-Italic" family="Georgia" pointSize="20"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SUSHANT ATTADA" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42h-Tg-Xdf">
+                                <rect key="frame" x="16" y="311" width="288" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="v1Q-cg-nLO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Georgia-BoldItalic" family="Georgia" pointSize="22"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.11049354821443558" green="0.26546108722686768" blue="0.26629996299743652" alpha="0.93642979452054798" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lvp-ew-yvn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="2WW-7x-vuE"/>
+                            <constraint firstItem="42h-Tg-Xdf" firstAttribute="top" secondItem="lvp-ew-yvn" secondAttribute="bottom" constant="31" id="4M2-Ui-cxu"/>
+                            <constraint firstItem="DbQ-eA-cRp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="7hg-CC-vzf"/>
+                            <constraint firstItem="DbQ-eA-cRp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="8aX-lO-VMw"/>
+                            <constraint firstItem="NgS-cq-YPd" firstAttribute="top" secondItem="42h-Tg-Xdf" secondAttribute="bottom" constant="8" id="9WC-yc-5Y6"/>
+                            <constraint firstItem="lvp-ew-yvn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="DI8-Da-yEW"/>
+                            <constraint firstItem="lvp-ew-yvn" firstAttribute="top" secondItem="DbQ-eA-cRp" secondAttribute="bottom" constant="23" id="Eqg-SQ-bds"/>
+                            <constraint firstItem="NgS-cq-YPd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="FYr-nP-QER"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NgS-cq-YPd" secondAttribute="bottom" constant="100" id="M5W-h4-8xc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lvp-ew-yvn" secondAttribute="trailing" constant="16" id="N7I-fj-9vQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DbQ-eA-cRp" secondAttribute="trailing" constant="16" id="NBY-u5-gpB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="NgS-cq-YPd" secondAttribute="bottom" constant="100" id="NPs-RB-Sq3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lvp-ew-yvn" secondAttribute="trailing" constant="16" id="OA9-YW-e94"/>
+                            <constraint firstItem="nHx-wo-4OF" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RG1-EK-bfx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="DbQ-eA-cRp" secondAttribute="trailing" constant="16" id="Syq-7f-2Il"/>
+                            <constraint firstItem="42h-Tg-Xdf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="XMC-Ux-m0P"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NgS-cq-YPd" secondAttribute="trailing" constant="16" id="alw-r5-lua"/>
+                            <constraint firstItem="NgS-cq-YPd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="bIL-yb-Yxf"/>
+                            <constraint firstItem="DbQ-eA-cRp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="gNF-jN-8zB"/>
+                            <constraint firstItem="lvp-ew-yvn" firstAttribute="top" secondItem="DbQ-eA-cRp" secondAttribute="bottom" constant="23" id="gOO-Am-6yw"/>
+                            <constraint firstItem="nHx-wo-4OF" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hPG-LP-G9D"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="42h-Tg-Xdf" secondAttribute="trailing" constant="16" id="hQ2-5Q-hnV"/>
+                            <constraint firstItem="nHx-wo-4OF" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="iRd-iH-R1f"/>
+                            <constraint firstItem="DbQ-eA-cRp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="57" id="iud-Ca-klH"/>
+                            <constraint firstItem="nHx-wo-4OF" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="nRV-e7-0fd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="NgS-cq-YPd" secondAttribute="trailing" constant="16" id="oJK-bf-IK7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="373.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Fifa" width="2695" height="1516"/>
+        <image name="whatsapp" width="480" height="800"/>
+    </resources>
+</document>
